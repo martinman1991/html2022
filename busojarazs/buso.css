@@ -30,6 +30,7 @@ img {
 	margin: 5px 15px;
 	width: 15em; 
 	background-color: white;
+	min-width: 300px;
 }
 
 .balra {
@@ -43,6 +44,7 @@ q {
 
 li {
 	margin-bottom: 25px;
+	list-style-image: url(jel.png);
 }
 
 footer{
@@ -57,9 +59,8 @@ footer{
 	font-size: 0.8em;
 }
 
-a {
-	text-transform: uppercase;
-	text-decoration: none;
+.jobbra{
+	float: right;
 }
 
 @media screen and (max-width:600px) {

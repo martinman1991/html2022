@@ -1,7 +1,7 @@
-header {background-color: seagreen;}
-nav {background-color: rgba(149, 248, 68, 0.952);}
-.jbobsav {background-color: rgb(158, 208, 255);}
-.tratalom {background-color: rgb(47, 248, 255);}
+header {background-color: rgb(255, 115, 115);}
+nav {background-color: rgba(15, 113, 170, 0.952);}
+.jbobsav {background-color: rgb(158, 255, 171);}
+.tratalom {background-color: rgb(61, 161, 41);}
 footer {background-color: rgb(227, 230, 107);}
 
 #gridcontianer
@@ -9,11 +9,6 @@ footer {background-color: rgb(227, 230, 107);}
     display: grid;
     grid-template-columns: auto;
 }
-header {grid-column: 1/1;}
-nav {grid-column: 1;}
-.jbobsav {grid-column: 1;}
-.tratalom {grid-column: 1; grid-row: 1/4;}
-footer {grid-column: 1/3;}
 /*mobilméret bazmerg*/
 
 
@@ -21,14 +16,28 @@ footer {grid-column: 1/3;}
 @media only screen and (min-width: 600px)
 {
     footer {background-color: rgb(37, 221, 190);}
-    #gridcontianer
-    {
-        grid-template-columns: 25% 75%;
-    }
+    #gridcontianer {grid-template-columns: 25% 75%;}
+    header {grid-column: 1/3;}
+    nav {grid-column: 1;}
+    .jbobsav {grid-column: 1;}
+    .tratalom {grid-column: 2; grid-row: 2/4;}
+    footer {grid-column: 1/3;}
 }
 
 /*PCméret bazmerg*/
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 1200px)
+
 {
-    footer {background-color: rgb(132, 255, 108);}
+    #gridcontianer
+{
+    width: 1200px;
+    grid-template-columns: 25% 55% 20%;
+    margin:auto;
+}
+    footer {background-color: rgb(255, 142, 142);}
+    header {grid-column: 1/4;}
+    nav {grid-column: 1;}
+    .jbobsav {grid-column: 3;}
+    .tratalom {grid-column: 2;}
+    footer {grid-column: 1/4;}
 }

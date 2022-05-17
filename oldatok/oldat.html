@@ -8,6 +8,15 @@
 </head>
 
 <body>
+	<script>
+		function szamol()
+		{
+			let anyag=document.getElementById("oldottanyag").value;
+			let anyag=document.getElementById("oldoszer").value;
+			let eredmeny=( anyag / (anyag+szer))*100
+			document.getElementById("megoldas").innerHTML=(anyag / (anyag+szer))*100;
+		}
+	</script>
 	<div id="tartalom">
 		<h1>Oldat</h1>
 		<p>A többkomponensű, homogén, vagy inhomogén rendszereket összefoglaló néven elegyeknek nevezzük.</p>
@@ -23,7 +32,6 @@
 		<li><span class="oldat">telítetlen oldat</span>: ha az oldott komponens koncentrációja kisebb, mint az adott körülményekhez (oldószer, hőmérséklet, nyomás) tartozó oldhatósága (az oldandó anyagból még több is oldódhat).</li>
 		<li><span class="oldat">telített oldat</span>: ha az oldott komponens koncentrációja megegyezik az adott körülményekhez	(oldószer, hőmérséklet, nyomás) tartozó oldhatóságával (a feleslegben hozzáadott anyag oldatlanul visszamarad).</li>
 		<li><span class="oldat">túltelített az oldat</span>, ha az oldott komponens koncentrációja nagyobb, mint az adott körülményekhez (oldószer, hőmérséklet, nyomás) tartozó oldhatósága. Ilyen rendszer akkor jön létre, ha adott hőmérsékleten egy telített oldat elkezd hűlni és benne a kristálygóc-képződés különféle gátlások miatt nem indul meg.</li>
-		</ul>
 
 
 		<h2>Az oldat töménysége</h2>
@@ -32,8 +40,8 @@
 
 
 		<h2>Feladat</h2>
-		<p>Hány tömegszázalékos az az oldat, amelyben <input type="number" min="0"> g sót feloldunk <input type="number" min="0"> g vízben?</p>
-		<input type="button" value="Számol">
+		<p>Hány tömegszázalékos az az oldat, amelyben <input type="number" min="0" id="ldottanyag"> g sót feloldunk <input type="number" min="0" id="oldoszer"> g vízben?</p>
+		<input type="button" value="Számol" onclick="szamol">
 		<p>Eredmény: <span id="megoldas">?</span> m/m%</p>
 
 

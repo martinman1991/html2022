@@ -1,3 +1,15 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header
+{
+    height: 100px;
+    padding: 20px;
+    text-align: right;
+}
+
 header {background-color: rgb(255, 115, 115);}
 nav {background-color: rgba(15, 113, 170, 0.952);}
 .jbobsav {background-color: rgb(158, 255, 171);}

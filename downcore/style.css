@@ -8,12 +8,32 @@ body
     margin:0;
 }
 
+.tratalom
+{
+    padding: 15px;
+}
+
+.tratalom h2
+{
+    font-family: chiller;
+    font-size: 50px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.menuszoveg
+{
+    background-color: rgb(146, 252, 229);
+    text-align: center;
+    font-size: 30.33px;
+}
+
 header
 {
     height: 100px;
     padding: 20px;
     text-align: right;
-    background-image: url("poopenfarten.jfif");
+    background-image: url("poopenfarten.jfif"); 
     background-position: center;
     color: rgb(0, 0, 0);
 }
@@ -56,7 +76,7 @@ nav li
     padding: 10px
 }
 .jbobsav {background-color: rgb(176, 204, 223);}
-.tratalom {background-color: rgb(61, 161, 41);}
+.tratalom {background-color: rgb(188, 255, 175);}
 footer {background-color: rgb(227, 230, 107);
 text-align: center;
 min-height: 50px;}
@@ -95,6 +115,6 @@ min-height: 50px;}
     header {grid-column: 1/4;}
     nav {grid-column: 1;}
     .jbobsav {grid-column: 3;}
-    .tratalom {grid-column: 2;}
+    .tratalom {grid-column: 2}
     footer {grid-column: 1/4;}
 }

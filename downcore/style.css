@@ -18,6 +18,22 @@ header
     color: rgb(0, 0, 0);
 }
 
+.infoBox
+{
+    background-color: rgb(194, 253, 240);
+    margin: 10px;
+    padding: 5px;
+    border: 7.111px solid;
+    border-color: rgba(255, 60, 0, 0.733);
+    border-radius: 15px;
+}
+.infoBox h3
+{
+    margin: 0;
+    text-align-last: center;
+    background-color: rgb(156, 255, 143);
+    border-bottom: 2.5px solid;
+}
 header {background-color: rgb(255, 115, 115);}
 nav {background-color: rgba(159, 220, 255, 0.952);
 padding-left: 20px;}
@@ -39,7 +55,7 @@ nav li
     list-style-type: none;
     padding: 10px
 }
-.jbobsav {background-color: rgb(158, 255, 171);}
+.jbobsav {background-color: rgb(176, 204, 223);}
 .tratalom {background-color: rgb(61, 161, 41);}
 footer {background-color: rgb(227, 230, 107);
 text-align: center;

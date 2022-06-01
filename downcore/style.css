@@ -21,13 +21,6 @@ body
     font-variant: small-caps;
 }
 
-.menuszoveg
-{
-    background-color: rgb(136, 197, 255);
-    text-align: center;
-    font-size: 30.33px;
-}
-
 header
 {
     height: 100px;
@@ -111,7 +104,7 @@ min-height: 50px;}
     grid-template-columns: 25% 55% 20%;
     margin:auto;
 }
-    footer {background-color: rgb(255, 142, 142);}
+    footer {background-color: rgb(107, 201, 230);}
     header {grid-column: 1/4;}
     nav {grid-column: 1;}
     .jbobsav {grid-column: 3;}

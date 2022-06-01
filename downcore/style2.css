@@ -21,13 +21,6 @@ body
     font-variant: small-caps;
 }
 
-.menuszoveg
-{
-    background-color: rgb(136, 197, 255);
-    text-align: center;
-    font-size: 30.33px;
-}
-
 header
 {
     height: 100px;
@@ -92,7 +85,7 @@ min-height: 50px;}
 /*tabeltméret bazmerg*/
 @media only screen and (min-width: 600px)
 {
-    footer {background-color: rgb(109, 149, 236);}
+    footer {background-color: rgb(107, 201, 230);}
     #gridcontianer {grid-template-columns: 25% 75%;}
     header {grid-column: 1/3;}
     nav {grid-column: 1;}
@@ -111,11 +104,12 @@ min-height: 50px;}
     grid-template-columns: 25% 55% 20%;
     margin:auto;
 }
-    footer {background-color: rgb(255, 142, 142);}
+    footer {background-color: rgb(107, 201, 230);}
     header {grid-column: 1/4;}
-    nav {grid-column: 1;}
-    .jbobsav {grid-column: 3;}
-    .tratalom {grid-column: 2}
+    nav {grid-column: 1;
+    height: 700px;}
+    .jbobsav {grid-column: 3/7;}
+    .tratalom {grid-column: 2;}
     footer {grid-column: 1/4;}
 }
 .tratalom picture *
